@@ -7,6 +7,12 @@
  * case letters (a - z).
 */
 
+/*
+ * Was unable to get the following condition working:
+ * The compressed string must be smaller than the original.
+*/
+
+
 char* compressStr(char* str, int length, int maxLength) {
 	// Keep track of the number of duplicate characters
 	int numOfDup = 1;
