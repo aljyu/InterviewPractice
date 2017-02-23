@@ -2,6 +2,7 @@
  * Given two strings, write a method to decide if one is a
  * permutation of the other.
 */
+
 bool isPermutation(char* str1, char* str2) {
 	int str1Len = 0;
 	int str2Len = 0;
